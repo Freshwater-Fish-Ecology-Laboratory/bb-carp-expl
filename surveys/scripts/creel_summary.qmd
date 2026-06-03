@@ -1,0 +1,361 @@
+---
+title: "creel_summary"
+format: html
+editor: visual
+---
+
+## Part A: fishing trips
+
+We asked anglers whether they were fishing for burbot on their trip to Carp Lake. For the burbot fishers, we then asked whether they caught any burbot, and if they were willing to share some information like when, where, and how they caught the fish, and if we could take samples for biological data.
+
+```{r include=FALSE}
+library(tidyverse)
+carp_creel_A <- read_csv("carp_lk/data/creel/carp_creel.csv")
+
+colnames(carp_creel_A) <- c("survey_number", "date", "time", "angler_id", 
+                            "party_size", "fishing", "start_time", "end_time", "hrs_fished",
+                            "bb_fishing", "bb_caught", "bb_kept", "bb_released", "tagged_bb", 
+                            "sampled", "gear", "bait", "bait_1", "bait_2", "approx_loc", "comment")
+
+```
+
+```{r include=FALSE}
+carp_creel_A$start_time
+
+# this is. a very messy way to do this, but n is small so i just looked through the responses
+carp_creel_A <- carp_creel_A %>%
+  mutate(
+    start_cat = case_when(
+      start_time == "\"last night\"" | start_time == "\"nighttime\"" | start_time == "5:00:00 PM THURS" | 
+        start_time == "22:00" | start_time == "20:30" | start_time == "21:00" | start_time == "20:00" | 
+        start_time == "19:30" | start_time == "19:00" | start_time == "21:00-22:00" | 
+        start_time == "17:30" | start_time == "18:00" | start_time == "19:30, 08:00" | start_time == "7/18/23" ~ "evening",
+      start_time == "6:00" | start_time == "9:00" | start_time == "10:00:00 AM" | start_time == "7:00" |
+        start_time == "10:00" | start_time == "7:30" ~ "morning",
+      start_time == "12:00" | start_time == "16:00" | start_time == "13:00" | start_time == "15:00" |
+        start_time == "11:00" | start_time == "16:30" ~ "midday"
+    )
+  )
+```
+
+## Burbot Set-Lining: When do anglers set their lines and check/pull their lines?
+
+```{r include=FALSE}
+library(gridExtra)
+# start times
+stplot <- carp_creel_A %>%
+  drop_na(start_cat) %>%
+  ggplot(aes(x = start_cat, y = "", fill = start_cat)) + 
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) + 
+  theme_minimal() +
+  ggtitle("Burbot fishing start times") +
+  xlab("") + ylab("percent responses") +
+  scale_fill_brewer(palette = "GnBu", name = "Time interval", 
+                    labels = c("Evening (17:00-midnight)", "Midday (11:00-17:00)", "Morning (midnight-11:00)"))
+
+  # Now look at end times
+carp_creel_A$end_time
+
+carp_creel_A <- carp_creel_A %>%
+  mutate(
+    end_cat = case_when(
+      end_time == "\"morning\"" | end_time == "10:00" | end_time == "09:00 SUN" | end_time == "8:30" |
+        end_time == "8:00" | end_time == "10:00" | end_time == "morning" | end_time == "9:30" | end_time ==
+        "9:45" | end_time == "10:45" | end_time == "09:00-09:30" | end_time == "10:30" | end_time == "checked evening, then again morning at 6:45" |
+        end_time == "08:00, 19:30" | end_time == "7/21/23 8:00" | end_time == "9:00" ~ "morning",
+      end_time == "12:00" | end_time == "15:00" | end_time == "11:30" | end_time == "11:00" | end_time == "14:45" ~ "midday",
+      end_time == "20:00" | end_time == "checked evening, then again morning at 6:45" | end_time == "21:40" |
+        end_time == "08:00, 19:30" ~ "evening"
+    )
+  )
+
+endplot <- carp_creel_A %>%
+  drop_na(end_cat) %>%
+  ggplot(aes(x = end_cat, y = "", fill = end_cat)) + 
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) + 
+  theme_minimal() +
+  xlab("") + ylab("percent responses") +
+  ggtitle("Burbot fishing end times") +
+  scale_fill_brewer(palette = "GnBu", name = "Time interval", 
+                    labels = c("Evening (17:00-midnight)", "Midday (11:00-17:00)", "Morning (midnight-11:00)"))
+```
+
+```{r echo=FALSE}
+
+grid.arrange(stplot, endplot)
+```
+
+## What methods are anglers using to target burbot at Carp Lake?
+
+```{r echo=FALSE}
+# Fishing methods
+carp_creel_A <- carp_creel_A %>%
+  mutate(
+    fish_method = case_when(
+      gear == "set-line" ~ "set-line",
+      gear == "jigging" ~ "jigging",
+      gear == "set-line + jigging 3h" ~ "both set-line and jigging")
+    )
+    
+carp_creel_A %>%
+  ggplot(aes(x = fish_method, y = "", fill = fish_method)) + 
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count))))+ 
+  #coord_polar("y", start = 0) +
+  ggtitle("Burbot fishing methods used at Carp Lake") +
+  theme_minimal() +
+  xlab("") + ylab("") +
+  scale_fill_brewer(palette = "GnBu", name = "Method")
+
+```
+
+## What types of bait are anglers using to target burbot?
+
+```{r include=FALSE}
+carp_creel_A$bait
+carp_creel_A <- carp_creel_A %>%
+  mutate(
+    bait_cat = case_when(
+      bait == "\"fish head\"" | bait == "\"trout\"" | bait == "\"rainbow trout head\"" | bait == "\"rainbow trout heads\"" |
+        bait == "\"trout head\"" | bait == "\"rainbow trout parts\"" | bait == "\"chicken, fish head\"" | bait == "\"rainbow trout head and pike minnow body\"" |
+        bait == "\"trout heads\"" | bait == "\"rainbow trout heads\"" | bait == "\"rainbow trout\"" | bait == "\"rainbow trout heads and/or tails, guts\"" ~ "rainbow trout heads, tails, and/or guts",
+      bait == "\"whitefish\"" | bait == "\"northern pike & salmon eggs\"" | bait == "\"peamouth chub\"" | bait == "\"pike minnow\"" |
+        bait == "\"rainbow trout head and pike minnow body\"" | bait == "\"shrimp and sardines\"" ~ "other fish",
+      bait == "\"shrimp and sardines\"" | bait == "\"shrimps, prawn\"" | bait == "\"shrimp\"" ~ "shrimp/shellfish",
+      bait == "\"chicken gizzards\"" | bait == "\"chicken, fish head\"" ~ "chicken",
+      bait == "\"worms\"" ~ "worms",
+      bait == "\"glow jig and tube\"" ~ "jigging lures"))
+      
+bait_category <- factor(carp_creel_A$bait_cat, levels = c("rainbow trout heads, tails, and/or guts", "other fish", "shrimp/shellfish", "chicken", "worms", "jigging lures"))
+```
+
+```{r echo=FALSE}
+
+carp_creel_A %>%
+  
+  ggplot(aes(x = bait_category, y = "", fill = bait_category)) + 
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count))))+
+  #coord_polar("y", start = 0) +
+  ggtitle("Bait types used for burbot fishing at Carp Lake") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Bait category") + 
+  theme_minimal() +
+  xlab("") +
+  ylab("")
+
+```
+
+# Creel Part B: General burbot fishing activity at Carp Lake
+
+We asked participants how often, per year, they fish for burbot at Carp Lake.
+
+```{r include=FALSE}
+library(tidyverse)
+library(purrr)
+library(RColorBrewer)
+
+carp_creel_B <- read_csv("carp_lk/data/creel/carp_creel_B.csv")
+
+# let's look at the number of times these anglers fish at Carp Lake per year:
+fishing_freq <- carp_creel_B$`About how often do you fish for burbot at Carp Lake each year?2`
+```
+
+```{r echo=FALSE}
+# plot
+carp_creel_B %>%
+  ggplot(aes(x = fishing_freq, y = "", fill = fishing_freq)) + 
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("How often anglers report fishing at Carp Lake per year") +
+  scale_fill_brewer(palette = "GnBu", name = "Number of fishing trips per year", 
+                    labels = c("once a year or less", "between 2-5 times per year", "more than 5 times per year", "I come here regularly (e.g. once a month or more)"))
+```
+
+## Prior awareness of burbot tagging study at Carp Lake
+
+We asked participants in the creel survey whether they were aware of the ongoing burbot tag-recovery study, before they started the survey.
+
+```{r include=FALSE}
+# Were anglers aware of the tagging program before beginning the survey?
+aware <- carp_creel_B$`Before we began this survey, were you aware there is a burbot-tagging program happening at Carp Lake?`
+aware
+carp_creel_B <- carp_creel_B %>%
+  mutate(
+    aware_yn = case_when(
+      aware == "Yes" | aware == "Yes (saw poster)" | aware == "Yes (from other people)" ~ "Yes",
+      aware == "No" ~ "No")
+  )
+```
+
+```{r echo=FALSE}
+carp_creel_B %>%
+  ggplot(aes(x = aware_yn, fill = aware_yn))+
+  geom_bar()+
+  theme_minimal() +
+  xlab("") + ylab("Number of anglers") +
+  scale_fill_brewer(palette = "GnBu", name = "Aware of burbot tagging study before survey?")
+```
+
+## Reporting of tagged burbot
+
+Our research team has applied (x) standard tags and (x) \$100-reward tags to burbot at Carp Lake for a tag-recovery study on burbot population dynamics. Part of the creel survey was aimed at figuring out how likely anglers are to report these tags, to see how effective our tagging program is. Creel survey responses showed that most people think \$100-reward tags are more likely to be reported. However, many respondents said that they would be likely to report standard tags as well, which is encouraging for burbot research efforts.
+
+```{r include=FALSE}
+lik_questions <- read_csv("carp_lk/data/creel/lik_questions.csv")
+
+response1 <- factor(lik_questions$response, levels = c("very likely", "likely", "neutral", "unlikely", "very unlikely"))
+```
+
+```{r echo=FALSE}
+ggplot(data = lik_questions, aes(x = question, y = per, fill = response1)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Response") +
+  coord_flip() +
+  xlab("") +
+  ylab("percentage") +
+  theme(axis.text = element_text(size = 12), 
+        axis.title = element_text(size = 14, face = "bold")) +
+  ggtitle("Anglers' likelihood to report tagged burbot") +
+  theme_minimal()
+```
+
+# Creel Part C: observations of the burbot fishery
+
+## Part C was focused at asking for participants' opinions on the burbot fishery, their overall experience, and any concerns.
+
+We asked anglers about their experience fishing for burbot at Carp Lake. Here are the number of years that respondents reported fishing here. Most participants said they'd been fishing at Carp Lake either for \> 1 year, or for 2-5 years. However, several anglers said they'd been coming to Carp Lake for 10-20 years, or for even more than 20 years.
+
+```{r include=FALSE}
+carp_creel_C <- read_csv("carp_lk/data/creel/carp_creel_C.csv")
+
+carp_exp <- carp_creel_C$`How long have you been fishing for burbot at Carp Lake?`
+carp_exp <- factor(carp_exp, levels = c("one year or less", "2-5 years", "5-10 years", "10-20 years", "more than 20 years"))
+```
+
+```{r echo=FALSE}
+carp_creel_C %>%
+  ggplot(aes(x = carp_exp, y = "", fill = carp_exp)) + 
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("Anglers' number of years burbot fishing at Carp Lake ") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Years of experience", 
+                    labels = c("one year or less", "2-5 years", "10-20 years", "more than 20 years"))
+```
+
+# Part D: demographics of survey participants
+
+To gain an understanding of who is using the recreational fishery at Carp Lake, we asked a series of basic demographic questions. All questions were voluntary and all included the option "I prefer not to say" if participants did not feel comfortable sharing. I made clear that demographic information would not be used to identify survey participants.
+
+I asked survey participants which age range they belonged to:
+
+```{r include=FALSE}
+carp_creel_D <- read_csv("carp_lk/data/creel/carp_creel_D.csv")
+age_q <- carp_creel_D$`Which age range do you belong to?` %>%
+  factor(levels = c("A", "B", "C", "D",
+                    "E", "F")) 
+```
+
+```{r echo=FALSE}
+carp_creel_D %>%
+  ggplot(aes(x = age_q, y = "", fill = age_q))+
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("Age ranges of burbot survey participants ") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Age range", 
+                    labels = c("18-34 years old", "35-49 years old", "50-64 years old", 
+                               "65-79 years old", "80 years or older", "I prefer not to say"))
+```
+
+Most participating anglers were in the 35-49 year category. There was some representation across almost all age ranges, with the next most common responses being 50-64, 18-34, and 65-79.
+
+I asked survey participants about the length of the drive from their place of residence to Carp Lake.
+
+```{r include=FALSE}
+loc_q <- carp_creel_D$`About how long does it take you to drive to Carp Lake from place of residence?` %>%factor(levels=c("A", "B", "C", "D"))
+```
+
+```{r echo=FALSE}
+carp_creel_D %>%
+  ggplot(aes(x = loc_q, y = "", fill = loc_q))+
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("Participants' distance traveled to Carp Lake from home") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Commute time", 
+                    labels = c("less than 1 hour", "1-3 hours", "more than 3 hours", 
+                               "I prefer not to say"))
+```
+
+The responses show a majority of participating anglers came from 1-3 hours away. Many anglers voluntarily said they were coming from Prince George.
+
+```{r include=FALSE}
+fn_q <- carp_creel_D$`Are you a member of any of the following Indigenous communities?` %>%
+  factor(levels= c("A", "B", "C", "D", "E", "F"))
+```
+
+```{r echo=FALSE}
+carp_creel_D %>%
+  ggplot(aes(x = fn_q, y = "", fill = fn_q)) +
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("Participants who are members of Indigenous communities") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Community", 
+                    labels = c("First Nation", "Métis", "None",
+                               "I prefer not to say"))
+
+```
+
+```{r include=FALSE}
+gender_q <- carp_creel_D$`What gender do you identify as? (one respondent per party)` %>%
+  factor(levels = c("A", "B", "C", "D", "E", "F", "G"))
+```
+
+We asked survey participants what gender they identify as, with the options Female, Male, Non-binary, Transgender, Two-Spirit, I prefer not to say, or an option to write in their own response.
+
+```{r echo=FALSE}
+carp_creel_D %>%
+  ggplot(aes(x = gender_q, y = "", fill = gender_q)) +
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("Gender of survey participants") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Gender", 
+                    labels = c("Female", "Male"))
+```
+
+About 70% of participants who answered the survey identified as male and 30% identified as female. No participants responded with other gender identities.
+
+```{r include=FALSE}
+edu_q <- carp_creel_D$`Highest level of education completed` %>%
+  factor(levels = c("A", "B", "C", "D", "E", "F", "G", "H"))
+```
+
+```{r echo=FALSE}
+carp_creel_D %>%
+  ggplot(aes(x = edu_q, y = "", fill = edu_q)) +
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("Education level of survey participants") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Level of Education Completed", 
+                    labels = c("some high school", "high school diploma", "some university or college or trade school", "bachelor's degree or college diploma or trades certificate", "Master's degree", "Ph.D/doctoral degree or equivalent"))
+  
+```
+
+```{r include=FALSE}
+income <- carp_creel_D$`What is your estimated annual household income?` %>%
+  factor(levels = c("A", "B", "C", "D", "E", "F", "G", "H"))
+```
+
+```{r echo=FALSE}
+carp_creel_D %>%
+  ggplot(aes(x = income, y = "", fill = income)) +
+  geom_bar(aes(y=after_stat(count)/ sum(after_stat(count)))) +
+  theme_minimal()+
+  xlab("") + ylab("percent responses") +
+  ggtitle("Estimated annual household income of survey participants") +
+  scale_fill_brewer(palette = "GnBu", direction = -1, name = "Level of Education Completed", 
+                    labels = c("between $30,000 and $49,000", "between $50,000 and $74,999", "between $75,000 and $99,999", "between $100,000 and $150,000", "over $150,000", "I prefer not to say"))
+```
