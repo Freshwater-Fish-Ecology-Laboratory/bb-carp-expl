@@ -1,0 +1,10 @@
+﻿Tagging year,Tagging season,Number tagged,Year 1,Year 2,Year 3,Year 4,Year 5
+1,pre-season,N1,N1*h1*l1,N1*(1-h1)*s1*h2*l2,N1*(1-h1)*s1*(1-h2)*s2*h3*l3,N1*(1-h1)*s1*(1-h2)*s2*(1-h3)*s3*h4*l4,N1*(1-h1)*s1*(1-h2)*s2*(1-h3)*s3*(1-h4)*s4*h5*l5
+,post-season,N1',,N1'*s1*h2*l2,N1'*s1*(1-h2)*s2*h3*l3,N1'*s1*(1-h2)*s2*(1-h3)*s3*h4*l4,N1'*s1*(1-h2)*s2*(1-h3)*s3*(1-h4)*s4*h5*l5
+2,pre-season,N2,,N2*h2*l2,N2*(1-h2)*s2*h3*l3,N2*(1-h2)*s2*(1-h3)*s3*h4*l4,N2*(1-h2)*s2*(1-h3)*s3*(1-h4)*s4*h5*l5
+,post-season,N2',,,N2'*s2*h3*l3,N2'*s2*(1-h3)*s3*h4*l4,N2'*s2*(1-h3)*s3*(1-h4)*s4*h5*l5
+3,pre-season,N3,,,N3*h3*l3,N3*(1-h3)*s3*h4*l4,N3*(1-h3)*s3*(1-h4)*s4*h5*l5
+,post-season,N3',,,,N3'*s3*h4*l4,N3'*s3*(1-h4)*s4*h5*l5
+4,pre-season,N4,,,,N4*h4*l4,N4*(1-h4)*s4*h5*l5
+,post-season,N4',,,,,N4'*s4*h5*l5
+5,pre-season,N5,,,,,N5*h5*l5

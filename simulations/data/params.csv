@@ -1,0 +1,8 @@
+﻿Parameter,Symbol,Values evaluated,References,Notes
+Study duration (years),yrs,"2, 5, 10","Latour et al. 2001, Schoenebeck and Brown 2011, Deane et al. 2023",reflects short- to long-term tagging programs
+Tags per occasion,ntags,"50, 100, 200",Lewandoski et al. 2017,applied at each pre- and post-season tagging occasion
+Harvest probability,h,"0.05, 0.10. 0.20",Warnock 2022; Lewandoski et al. 2017,low to moderate fishing exploitation
+Annual survival probability,s,"0.50, 0.80, 0.90","Lewandoski 2015, 2017; Worthington et al. 2011; Schwarz 2018",range in survival values from limited burbot literature
+Reporting probability (standard tags),l,"0.30, 0.70, 0.90","Lewandoski et al., 2017",low to high reporting participation from fishers
+Reporting probability (high-reward tags),ls,1,Pollock et al. 2001,assumed complete reporting
+Winter harvest proportion,w,"0, 0.05, 0.10, 0.25",Carp Lake empirical tag-reporting data,used to evaluate sensitivity of estimates to violation of model assumption
