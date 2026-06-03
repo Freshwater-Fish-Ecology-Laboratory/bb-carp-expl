@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 3.0.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="54.781437505077598" minlon="-123.366049622595000" maxlat="54.818927632106501" maxlon="-123.315077971894993"/></metadata>              
+<wpt lat="54.8114912814967" lon="-123.330866802253993">
+  <name>CARP3-Z1-2</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.810009953940003" lon="-123.345825122768005">
+  <name>CARP3-Z1-11</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.799635805739591" lon="-123.354116688299001">
+  <name>CARP3-Z1-41</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.783026077708207" lon="-123.320598610722001">
+  <name>CARP3-Z1-104</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.8002517624098" lon="-123.335314629595999">
+  <name>CARP3-Z1-145</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.789351530102188" lon="-123.316070956492993">
+  <name>CARP3-Z1-212</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.795952282562197" lon="-123.327258801347995">
+  <name>CARP3-Z1-241</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.808445315182901" lon="-123.346959254903993">
+  <name>CARP3-Z1-246</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.781437505077598" lon="-123.336522094188993">
+  <name>CARP3-Z1-268</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.785973472589191" lon="-123.366041775523996">
+  <name>CARP3-Z1-283</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.7878371979075" lon="-123.316000881950998">
+  <name>CARP3-Z1-286</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.815535838355899" lon="-123.350325068819004">
+  <name>CARP3-Z1-293</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.793873875747998" lon="-123.335327176358007">
+  <name>CARP3-Z1-300</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.804440525928698" lon="-123.327048819140003">
+  <name>CARP3-Z1-330</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.793863474595398" lon="-123.360622224942006">
+  <name>CARP3-Z1-341</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.781945023500001" lon="-123.315077971894993">
+  <name>CARP3-Z1-344</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.818927632106501" lon="-123.345511955112002">
+  <name>CARP3-Z1-348</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.793769522928997" lon="-123.366049622595">
+  <name>CARP3-Z1-364</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.796954685011301" lon="-123.338597326108001">
+  <name>CARP3-Z1-366</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.804451862352607" lon="-123.354013721472">
+  <name>CARP3-Z1-372</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.793935462087603" lon="-123.338639348306003">
+  <name>CARP3-Z1-404</name>
+  <extensions>
+  </extensions>
+</wpt>
+<wpt lat="54.798949896452399" lon="-123.328242478063004">
+  <name>CARP3-Z1-417</name>
+  <extensions>
+  </extensions>
+</wpt>
+</gpx>

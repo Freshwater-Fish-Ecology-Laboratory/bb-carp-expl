@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="54.752270809370302" minlon="-123.424860136858001" maxlat="54.788442686575102" maxlon="-123.362185690290005"/></metadata>              
+<wpt lat="54.772302569169497" lon="-123.409233917867994">
+  <name>CARP4-Z2-17</name>
+</wpt>
+<wpt lat="54.776554793411201" lon="-123.397221044355007">
+  <name>CARP4-Z2-19</name>
+</wpt>
+<wpt lat="54.786287068800497" lon="-123.405557678598996">
+  <name>CARP4-Z2-20</name>
+</wpt>
+<wpt lat="54.774806916397097" lon="-123.419727501400999">
+  <name>CARP4-Z2-56</name>
+</wpt>
+<wpt lat="54.7705991139837" lon="-123.410611311503004">
+  <name>CARP4-Z2-59</name>
+</wpt>
+<wpt lat="54.752270809370302" lon="-123.407679740229995">
+  <name>CARP4-Z2-62</name>
+</wpt>
+<wpt lat="54.773284684504397" lon="-123.390864075581007">
+  <name>CARP4-Z2-69</name>
+</wpt>
+<wpt lat="54.761156237107599" lon="-123.372086477031999">
+  <name>CARP4-Z2-70</name>
+</wpt>
+<wpt lat="54.777145295980503" lon="-123.424860136858001">
+  <name>CARP4-Z2-74</name>
+</wpt>
+<wpt lat="54.780945721626601" lon="-123.384914822723999">
+  <name>CARP4-Z2-83</name>
+</wpt>
+<wpt lat="54.7745594497299" lon="-123.406676623894995">
+  <name>CARP4-Z2-84</name>
+</wpt>
+<wpt lat="54.7840546176092" lon="-123.414810009590994">
+  <name>CARP4-Z2-106</name>
+</wpt>
+<wpt lat="54.761463137175298" lon="-123.399105515634005">
+  <name>CARP4-Z2-133</name>
+</wpt>
+<wpt lat="54.763502898925701" lon="-123.362185690290005">
+  <name>CARP4-Z2-150</name>
+</wpt>
+<wpt lat="54.7597448114728" lon="-123.380730131291003">
+  <name>CARP4-Z2-152</name>
+</wpt>
+<wpt lat="54.788442686575102" lon="-123.381725085358994">
+  <name>CARP4-Z2-154</name>
+</wpt>
+<wpt lat="54.759535434975398" lon="-123.399011388380003">
+  <name>CARP4-Z2-178</name>
+</wpt>
+<wpt lat="54.785436941356203" lon="-123.378632502989007">
+  <name>CARP4-Z2-200</name>
+</wpt>
+<wpt lat="54.761698301873501" lon="-123.368345401718003">
+  <name>CARP4-Z2-207</name>
+</wpt>
+<wpt lat="54.762390558618797" lon="-123.375720199011994">
+  <name>CARP4-Z2-210</name>
+</wpt>
+</gpx>
