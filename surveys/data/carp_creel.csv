@@ -1,0 +1,49 @@
+﻿Survey number,Date,Time,day_type,Angler code,No. in party,Fishing today Y/N,Start time,End time,number of sets,Total hours,Burbot fishing Y/N,burbot caught,cpue,burbot kept,burbot released,tagged burbot caught,Sample collected Y/N,Gear,Bait,Bait 1,Bait 2,approx catch location,code- catch location,Comment
+1,6/23/23,11:37,weekday,A1,2,Y,6:00,12:00,2.00,24,Y,2,0.083333333,2,0,0,Y,set-line,"""fish head""",fish head,NA,"""mid-lake""",mid-lake,fished 3x nights. 2 lines
+3,6/24/23,16:00,weekend,A1,2,Y,9:00,15:00,1.00,12,Y,2,0.166666667,2,0,0,Y,set-line,"""fish head""",fish head,NA,"""mid-lake""",mid-lake,
+2,6/24/23,15:10,weekend,A2,10,Y,12:00,20:00,1.00,48,Y,2,0.041666667,2,0,0,Y,set-line,"""trout""",trout,NA,"""White Spruce Island""",White Spruce,
+5,6/25/23,10:39,weekend,A4,2,Y,"""nighttime""","""morning""",4.00,96,Y,1,0.010416667,1,0,0,N,set-line,"""shrimp and sardines""",shrimp,sardines,"""White Spruce""",White Spruce,
+6,6/25/23,13:30,weekend,A5,2,Y,5:00:00 PM THURS,09:00 SUN,3.00,64,Y,3,0.046875,3,0,0,Y,set-line + jigging 3h,"""chicken gizzards""",chicken gizzards,NA,"""off Balsam Isl""",Balsam,jigging for 3 hrs
+4,6/25/23,10:12,weekend,A3,2,Y,22:00,10:00,1.00,12,Y,2,0.166666667,2,0,1,Y,set-line,"""northern pike & salmon eggs""",northern pike,salmon eggs,"""left of Bert's Cabin, bay in front of spruce-killed island, approx 50ft""",Kettle Bay,
+7,6/25/23,14:15,weekend,A6,2,Y,16:00,21:00,3.00,46,Y,7,0.152173913,6,1,1,N,set-line,"""shrimps, prawn""",shrimps,prawn,"""White Spruce Island""",White Spruce,"was fishing for 3 days. I believe the angler set line at 4pm, checked and re-set at 9pm each night, then pulled line finally before survey"
+9,7/1/23,10:30,weekend,A8,3,Y,21:00,8:00,1.00,33,Y,2,0.060606061,2,0,0,Y,set-line,"""rainbow trout heads""",rainbow trout heads,NA,"""near creek""",Kettle Bay,
+8,7/1/23,9:15,weekend,A7,2,Y,20:30,8:30,1.00,24,Y,1,0.041666667,1,0,1,Y,set-line,"""rainbow trout head""",rainbow trout head,NA,"""big island past bay""",Black Spruce,near Black Spruce Isl?
+10,7/2/23,12:40,weekend,A10,2,Y,10:00:00 AM,10:00,1.00,48,Y,1,0.020833333,1,0,0,Y,set-line,"""peamouth chub""",peamouth chub,NA,"""1st island""",Kettle Bay,
+11,7/2/23,13:40,weekend,A11,1,N,NA,NA,NA,NA,N,0,#VALUE!,0,0,0,N,set-line,"""trout head""",trout head,NA,NA - not burbot fishing this trip,NA,angler was fishing trout but has experience fishing burbot in the past.
+12,7/2/23,15:45,weekend,A12,2,Y,13:00,11:30,1.00,42,Y,0,0,0,0,0,N,set-line,"""trout head""",trout head,NA,"""little island past the burnt island""",Kettle Bay,"from described location - burnt island is in ""Zone 1"" corner of lake"
+13,7/2/23,16:00,weekend,A13,2,Y,20:00,morning,1.00,26,Y,1,0.038461538,1,0,0,N,set-line,"""rainbow trout parts""",rainbow trout parts,NA,south-east corner (Z4),southeast corner,"did not record word-for-word description of location but the angler described it as in this far corner, described landmarks and ""south-east"""
+14,7/3/23,10:15,weekend,A14,2,Y,7:00,8:00,3.00,98,Y,0,0,0,0,0,N,set-line,"""chicken, fish head""",chicken,fish head,"""none :( """,NA,fished over 2 nights. No fish caught
+15,7/4/23,12:00,weekday,A15,2,Y,19:30,9:30,1.00,28,Y,1,0.035714286,1,0,0,Y,set-line,"""rainbow trout head""",rainbow trout head,NA,"""bay just past the little shack/bay""",west bay,angler said the bay they fished was not Sekani Bay but the next one
+16,7/5/23,9:50,weekday,A16,not recorded,Y,15:00,11:00,5.00,40,Y,2,0.05,2,0,0,N,set-line,"""rainbow trout head""",rainbow trout head,NA,"""off point near Bert's Cabin; mid-channel by third Island""",Kettle Bay,fished over 5 days setting around 3pm each day and checking around 11am the following morning.
+17,7/5/23,10:20,weekday,A17,6,Y,18:00,9:45,3.00,189,Y,1,0.005291005,1,0,0,Y,set-line,"""trout head""",trout head,NA,"""east side of White Spruce Island""",White Spruce,fished x3 days WITH 4 LINES
+18,7/5/23,13:45,weekday,A18,2,Y,10:00,12:00,1.00,26,Y,0,0,0,0,0,N,set-line,"""fish head""",fish head,NA,"""by the islands""",islands (not specified),
+19,7/6/23,,weekday,A18,2,Y,19:00,10:45,1.00,15.75,Y,0,0,0,0,0,N,set-line,"""fish head""",fish head,NA,"""by the islands""",islands (not specified),
+20,7/21/23,11:30,weekday,A5,2,Y,7/18/23,7/21/23 8:00,5.00,70,Y,0,0,0,0,0,N,set-line,"""chicken gizzards""",chicken gizzards,NA,"""off Balsam Isl""",Balsam,reported that they used the same location and bait as earlier trip so I filled these in as the same answers 
+21,7/22/23,10:15,weekend,A19,3,Y,9:00,9:30,JIG,0.5,Y,1,2,1,0,0,N,jigging,"""glow jig and tube""",,NA,"""Balsam Island""",Balsam,
+22,7/23/23,11:00,weekend,A19,3,Y,22:00,9:00,1.00,33,Y,1,0.03030303,1,0,0,Y,set-line,"""pike minnow""",NA,NA,"""Balsam Isl""",Balsam,3 lines
+23,7/23/23,10:30,weekend,A20,not recorded,Y,21:00-22:00,09:00-09:30,1.00,12.5,Y,1,0.08,1,0,0,N,set-line,"""pike minnow""",pike minnow,NA,"""Balsam Island""",Balsam,
+24,7/23/23,13:30,weekend,A21,2,Y,17:30,10:45,1.00,34.5,Y,0,0,0,0,0,N,set-line,"""rainbow trout head and pike minnow body""",rainbow trout head,pike minnow body,NA - did not catch any burbot,NA,
+25,7/23/23,16:00,weekend,A22,2+kids,Y,15:00,10:00,1.00,38,Y,2,0.052631579,2,0,0,Y,set-line,"""shrimp""",shrimp,NA,"""bay near Bert's Cabin (both days)""",Kettle Bay,fished for 2x overnights
+26,7/31/23,15:00,weekday,A23,4,Y,20:00,8:00,1.00,48,Y,2,0.041666667,2,0,1,N,set-line,"""trout heads""",trout heads,NA,"""right off an island on steep dropoff""",islands (not specified),tagged BB # 7482. 1 night x 4 set-lines
+27,8/1/23,11:00,weekday,A24,2,Y,11:00,8:00,1.00,42,Y,1,0.023809524,1,0,0,N,set-line,"""fish parts""",fish parts,NA,"""small island in the middle of the main lake""",islands (not specified),
+28,8/1/23,11:15,weekday,A25,3,Y,18:00,8:30,2.00,43.5,Y,2,0.045977011,2,0,1,Y,set-line,"""rainbow trout heads""",rainbow trout heads,NA,"""around Black Spruce Island""",Black Spruce,tagged BB # 7631
+29,8/2/23,11:20,weekday,A26,4,Y,"""last night""",10:00,1.00,56,Y,2,0.035714286,2,0,1,Y,set-line,"""whitefish""",whitefish,NA,"""White Spruce south""",White Spruce,
+30,8/3/23,15:30,weekday,A27,2,Y,10:00,14:45,2.00,19,Y,1,0.052631579,1,0,1,Y,set-line,"""trout head""",trout head,NA,"""behind island left side half way down lake""",White Spruce,
+31,8/4/23,10:45,weekday,A28,5,Y,20:30,10:00,1.00,67.5,Y,2,0.02962963,2,0,0,Y,set-line,"""fish head""",fish head,NA,"""near an island""",islands (not specified),5 lines
+32,8/5/23,14:06,weekend,A29,2,Y,19:30,10:30,1.00,30,Y,1,0.033333333,1,0,0,Y,set-line,"""worms""",worms,NA,"""just before White Spruce""",White Spruce,2 lines
+33,8/16/23,9:00,weekday,A30,4,Y,16:30,10:00,3.00,52.5,Y,1,0.019047619,1,0,0,Y,set-line,"""trout head""",trout head,NA,"""off north end of White Spruce Island""",White Spruce,"3 nights of fishing, one fish caught"
+34,8/18/23,9:40,weekday,A31,2,Y,21:00,21:40,JIG,0.7,Y,1,1.428571429,1,0,0,N,jigging,"""worms""",worms,NA,"""northeast bay - east of Black Spruce Island""",Black Spruce,
+35,8/20/23,12:35,weekend,A32,2+kids,Y,7:30,"checked evening, then again morning at 6:45",2.00,93,Y,1,0.010752688,1,0,0,N,set-line,"""rainbow trout""",rainbow trout,NA,"""by the river/first big island""",Kettle Bay,"x 4 lines (one per person) Set during day, checked, then re-set overnight"
+36,9/2/23,13:00,weekend,A33,2,Y,18:00,9:30,1.00,31,Y,0,0,0,0,0,N,set-line,"""rainbow trout heads""",rainbow trout heads,NA,"""off first point past Kettle Bay""",Kettle Bay,2 lines
+37,9/2/23,14:00,weekend,A34,2+kids,Y,20:00,8:30,1.00,25,Y,1,0.04,1,0,0,Y,set-line,"""rainbow trout head""",rainbow trout head,NA,"""first big bay past island""",Pine,
+38,9/3/23,17:00,weekend,A35,6,Y,"19:30, 08:00","08:00, 19:30",5.00,219,Y,11,0.050228311,11,0,0,N,set-line,"""rainbow trout heads and/or tails, guts""",rainbow trout heads,rainbow trout parts,"""4x in bay near Pine Island, 1-2 near White Spruce, near Fir Island at dropoff""",Pine,"Set 6 lines for 3 nights, checked then kept lines out during the day"
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
