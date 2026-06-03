@@ -1,0 +1,11 @@
+﻿question,response,total,total_responders,per
+no reward,very unlikely,2,33,0.060606061
+no reward,unlikely,2,33,0.060606061
+no reward,neutral,9,33,0.272727273
+no reward,likely,19,33,0.575757576
+no reward,very likely,1,33,0.03030303
+$100 reward,very unlikely,1,33,0.03030303
+$100 reward,unlikely,0,33,0
+$100 reward,neutral,0,33,0
+$100 reward,likely,7,33,0.212121212
+$100 reward,very likely,25,33,0.757575758

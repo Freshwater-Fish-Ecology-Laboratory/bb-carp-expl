@@ -1,0 +1,57 @@
+﻿Burbot ID,Angler Code,Date caught,Date sampled,Total Length (cm),Weight (g),Otoliths collected Y/N,age,Fate,Tagged Y/N,Floy tag number,Location,Notes
+1,NA,,5/26/23,58.5,1300,Y,9,harvested,N,,,Sampled during tagging season; not part of creel survey
+2,NA,,5/26/23,63.5,1800,N,NA,harvested,N,,,Sampled during tagging season; not part of creel survey
+3,NA,,5/26/23,81,5000,N,NA,harvested,N,,,Sampled during tagging season; not part of creel survey
+4,NA,,5/27/23,62.5,1700,Y,17,harvested,N,,,Sampled during tagging season; not part of creel survey
+5,NA,,5/27/23,85.5,4600,N,16,harvested,N,,,Sampled during tagging season; not part of creel survey
+6,NA,,6/2/23,59,1550,N,9,harvested,N,,,Sampled during tagging season; not part of creel survey
+7,NA,,6/6/23,66,NA,N,10,harvested,N,,,Sampled during tagging season; not part of creel survey
+8,NA,,6/6/23,58,NA,N,9,harvested,N,,,Sampled during tagging season; not part of creel survey
+9,NA,,6/6/23,65,1600,N,14,harvested,N,,,Sampled during tagging season; not part of creel survey
+10,A1,6/23/23,6/23/23,64,1500,Y,15,harvested,N,,"""mid lake""",
+11,A1,6/23/23,6/23/23,62.5,1350,Y,15,harvested,N,,"""mid lake""",
+14,A1,6/24/24,6/24/23,53,1050,Y,15,harvested,N,,"""mid lake""",
+15,A1,6/24/24,6/24/23,63,1750,Y,12,harvested,N,,"""mid lake""",
+16,A1,6/24/23,6/24/23,NA,NA,Y,16,harvested,N,,,
+12,A2,6/24/23,6/24/23,89,4000,Y,15,harvested,N,,White Spruce Island,
+13,A2,6/24/23,6/24/23,76,2650,Y,15,harvested,N,,White Spruce Island,
+17,A1,6/25/23,6/25/23,60.5,1200,Y,,harvested,N,,,
+19,A3,6/25/23,6/25/23,58,1000,Y,16,harvested,N,,"""left of Bert's Cabin, bay in front of spruce-kill island, approx 50ft""",
+20,A5,6/25/23,6/25/23,72,2700,Y,15,harvested,N,,off Balsam Island,
+21,A5,6/25/23,6/25/23,66,1870,Y,17,harvested,N,,off Balsam Island,
+22,A5,6/25/23,6/25/23,56,1220,Y,16,harvested,N,,off Balsam Island,
+23,A6,6/23/23,6/25/23,62.5,1400,N,NA,harvested,N,,White Spruce Island,
+24,A6,6/23/23,6/25/23,60,1800,N,NA,harvested,N,,White Spruce Island,
+25,A6,6/24/23,6/25/23,56,1250,N,NA,harvested,N,,White Spruce Island,
+27,A6,6/25/23,6/25/23,65.5,1700,N,NA,harvested,N,,White Spruce Island,
+28,A6,6/25/23,6/25/23,81,3850,N,NA,harvested,N,,White Spruce Island,
+18,A3,6/25/23,6/25/23,64.5,1700,Y,,harvested,Y,7288,"""left of Bert's Cabin, bay in front of spruce-kill island, approx 50ft""",
+26,A6,6/24/23,6/25/23,75.5,2650,N,NA,harvested,Y,7511,White Spruce Island,
+30,A8,7/1/23,7/1/23,65,NA,Y,17,harvested,N,,near creek,
+31,A8,7/1/23,7/1/23,60,NA,Y,17,harvested,N,,near creek,
+29,A7,7/1/23,7/1/23,54,1050,Y,9,harvested,Y,7385,"""big island past the bay""",
+32,A10,7/2/23,7/2/23,61.5,1450,Y,13,harvested,N,,"""first island""",
+33,A13,7/1/23,7/2/23,95,5300,Y,19,harvested,N,,"southeast part of lake. Inferred ""zone 4""",
+34,A15,7/4/23,7/4/23,61.5,1500,Y,13,harvested,N,,bay just past the little shack/narrow channel,
+36,A15,7/4/23,7/5/23,55,1250,Y,10,harvested,N,,,
+35,A17,7/5/23,7/5/23,57.5,1350,Y,16,harvested,N,,east side of White Spruce Island,had 4 lines out. Fished for 3 days
+38,A19,,7/23/23,87,3600,Y,17,harvested,N,,,
+37,A20,7/23/23,7/23/23,79,2850,Y,17,harvested,N,,,
+39,A22,,7/23/23,50,NA,Y,6,harvested,N,,,
+42,A25,8/1/23,8/1/23,92,3800,Y,16,harvested,N,,,
+41,A26,8/2/23,8/2/23,84.5,3950,Y,19,harvested,N,,,
+40,A26,8/2/23,8/2/23,65,1850,Y,16,harvested,Y,7515,,
+43,A27,8/3/23,8/3/23,60.5,1300,Y,9,harvested,Y,7500,,
+47,A25,8/4/23,8/4/23,61,1700,Y,9,harvested,N,,,
+48,A27,8/3/23,8/4/23,88,3450,Y,17,harvested,N,,,
+49,A27,8/3/23,8/4/23,60.5,1200,Y,15,harvested,N,,,
+44,A28,8/4/23,8/4/23,95,2900,Y,16,harvested,N,,,
+45,A28,8/4/23,8/4/23,81,2650,Y,15,harvested,N,,,
+46,NA,,8/4/23,94,5800,Y,17,discarded,N,,,
+51,A27,8/3/23,8/5/23,65,1850,Y,15,harvested,N,,,
+50,A29,8/5/23,8/5/23,55,1350,Y,10,harvested,N,,,
+52,NA,,8/6/23,66,NA,Y,12,harvested,N,,,
+53,A30,,8/16/23,65,NA,Y,16,harvested,N,,,
+54,A32,,8/20/23,NA,1450,Y,15,harvested,N,,,
+55,A34,,9/2/23,58.5,700,Y,9,harvested,N,,,
+7403,NA,,6/14/23,89.8,5300,Y,17,harvested,Y,7403,,caught by angler
