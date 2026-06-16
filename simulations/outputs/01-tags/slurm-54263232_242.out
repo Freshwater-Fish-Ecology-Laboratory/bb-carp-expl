@@ -1,0 +1,1225 @@
+Running on host cdr266.int.cedar.computecanada.ca
+Working directory is /home/ehirsch/projects/def-emartins/ehirsch/01-outputs
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020           5) libfabric/1.18.0 => libfabric/1.10.1
+  2) gcccore/.12.3 => gcccore/.9.3.0      6) openmpi/4.1.5 => openmpi/4.0.3
+  3) gentoo/2023 => gentoo/2020           7) ucx/1.14.1 => ucx/1.8.0
+  4) imkl/2023.2.0 => imkl/2020.1.217
+
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+Starting R at Mon 10 Feb 2025 01:37:14 PM PST.
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+
+Processing function input....... 
+
+Done. 
+ 
+Beginning parallel processing using 4 cores. Console output will be suppressed.
+
+Parallel processing completed.
+
+Calculating statistics....... 
+
+Done. 
+            mean         sd      2.5%       50%     97.5% Rhat n.eff
+mean_s 0.8861129 0.02883825 0.8407229 0.8823830 0.9518120    1  1351
+mean_h 0.1846188 0.02711493 0.1443213 0.1814244 0.2446526    1  2000
+mean_l 0.7828057 0.11448637 0.5649487 0.7814022 0.9828362    1  2000
+Finished R at Mon 10 Feb 2025 02:14:24 PM PST.
